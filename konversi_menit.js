@@ -4,12 +4,11 @@ function konversiMenit(menit) {
     while (menit > 59) {
         menit -= 60;
         hour += 1;
+    }      
+    if (menit < 10 ) {
+        menit = "0" + menit;
     }
-    var minutes = menit % 60;
-    if (minutes < 10 ) {
-        minutes = "0" + minutes;
-    }
-    return hour +":"+ minutes;    
+    return hour +":"+ menit;    
   }
   
   // TEST CASES
