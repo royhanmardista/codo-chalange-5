@@ -2,7 +2,7 @@
 // this code will print rows1 of star
 var rows1 = 5; //input 
 for (i = 0; i < rows1; i++) {
-    console.log("*\n");
+    console.log("*");
 }
 
 // Second Question : 2. Menyusun Barisan Bintang Dengan Nested Looping---------------------
